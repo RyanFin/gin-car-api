@@ -1,0 +1,17 @@
+{
+	"ulid": "01J59GR19E76SJSK6M38YW8GRD",
+	"minTime": 1723664368478,
+	"maxTime": 1723665600000,
+	"stats": {
+		"numSamples": 8715,
+		"numSeries": 120,
+		"numChunks": 120
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01J59GR19E76SJSK6M38YW8GRD"
+		]
+	},
+	"version": 1
+}
