@@ -10,6 +10,7 @@ import (
 
 // Car represents the structure for car details
 type Car struct {
+	ID        int     `json:"id"`
 	Model     string  `json:"model"`
 	Price     float64 `json:"price"`
 	RegNumber string  `json:"reg_number"`
@@ -17,9 +18,9 @@ type Car struct {
 
 // A slice to hold the car details
 var cars = []Car{
-	{"Toyota Camry", 24000, "ABC123"},
-	{"Honda Accord", 23000, "XYZ456"},
-	{"Tesla Model 3", 35000, "TESLA789"},
+	{1, "Toyota Camry", 24000, "ABC123"},
+	{2, "Honda Accord", 23000, "XYZ456"},
+	{3, "Tesla Model 3", 35000, "TESLA789"},
 }
 
 // Prometheus metrics
